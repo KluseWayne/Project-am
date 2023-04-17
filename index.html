@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AM Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/circle.png">
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <label for="otp-input">Enter OTP:</label>
+        <br>
+        <input type="text" id="otp-input" name="otp" maxlength="4" pattern="\d{1,4}" oninput="checkOTP()">
+        <br>
+        <span id="message"></span>
+    </form>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+
+</html>

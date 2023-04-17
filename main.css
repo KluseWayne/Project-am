@@ -1,0 +1,60 @@
+*{
+    font: 2ch droid sans mono, consolas, monospace;
+}
+body {
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    height: 97.5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-top: 120px;
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(225deg, rgba(252, 70, 107, 0.5), rgba(63, 94, 251, 0.5));
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+}
+form{
+    text-align: center;
+}
+
+#otp-input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 20px 0 20px 0;
+    font: 3ch droid sans mono, consolas, monospace
+}
+
+.green {
+    color: #46e146;
+
+}
+.red {
+    color: red;
+    font-weight: 800;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 300px;
+        height: 250px;
+        padding-top: 30px;
+        font: 1ch droid sans mono, consolas, monospace;
+    }
+    #otp-input{
+        font: 2ch droid sans mono, consolas, monospace;
+    }
+}
